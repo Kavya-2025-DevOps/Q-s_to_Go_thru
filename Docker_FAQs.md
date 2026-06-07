@@ -8,6 +8,7 @@ Level 1: Direct Questions
 4. Write a Docker File.
 5. What is Multi Stage Build and write an Example.
 6. Explain Docker Architecture.
+7. Docker Best Practices
 
 
 ##
