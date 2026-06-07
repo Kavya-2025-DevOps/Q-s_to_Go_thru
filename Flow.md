@@ -62,3 +62,42 @@ Database Call (Optional) if requested in the call -> Application talks to: DB ->
 Step 11:   
 Response Generated and Travels Back
 
+##
+##
+##
+
+# What happens when a user hits a URL ? - with network handshakes and low-level steps
+
+User Browser
+      │
+      ▼
+DNS Lookup
+      │
+      ▼
+TCP 3-Way Handshake
+      │
+      ▼
+TLS Handshake (HTTPS)
+      │
+      ▼
+HTTP Request
+      │
+      ▼
+Load Balancer
+      │
+      ▼
+Ingress
+      │
+      ▼
+Kubernetes Service
+      │
+      ▼
+Pod (Spring Boot)
+      │
+      ▼
+Database
+      │
+      ▼
+Response Back
+
+**Explanation**: When a user enters an HTTPS URL, the browser first performs DNS resolution to obtain the server IP address. It then establishes a TCP connection using the three-way handshake (SYN, SYN-ACK, ACK). Because the connection uses HTTPS, a TLS handshake follows, during which the server presents its certificate and both sides negotiate encryption keys. Once the secure connection is established, the browser sends the HTTP request. In a Kubernetes environment, the request typically reaches a load balancer, then an Ingress Controller, which routes it to a Service. The Service load balances traffic across healthy pods. The selected pod processes the request, optionally communicates with a database, and returns a response. The response travels back through the same path to the browser, which then renders the result. This entire sequence typically happens within milliseconds.
