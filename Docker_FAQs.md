@@ -1,5 +1,6 @@
-
 **Frequestly Asked**
+
+Level 1: Direct Questions  
 
 1. Difference b/w Docker Image and Docker Container 
 2. Difference between COPY and ADD
@@ -10,7 +11,7 @@
 
 
 ##
-Level 6: Scenario-Based Questions
+Level 2: Scenario-Based Questions
 
 **Scenario 1**: Your container works locally but fails in Kubernetes. Why?   
 A container that works locally but fails in Kubernetes usually depends on assumptions that don't hold in the cluster environment—such as missing environment variables, networking differences, unavailable volumes, resource limits, security restrictions, or startup-order issues.  
