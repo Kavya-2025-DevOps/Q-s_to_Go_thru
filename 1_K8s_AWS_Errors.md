@@ -1,5 +1,24 @@
 ******************* Most Asked Kubernetes Q's ******************
 
+
+1. What are the components of a Kubernetes cluster — control plane vs worker nodes?
+2. Difference between a Pod, Deployment, and ReplicaSet?
+3. How do Services work — ClusterIP, NodePort, LoadBalancer?
+4. ConfigMap vs Secret — how do you inject them into a Pod?
+5. Explain PV, PVC, and StorageClass.
+6. How does the Kubernetes scheduler work?
+7. What is HPA and how does it use metrics?
+8. Explain the CNI plugin model — Calico vs Flannel vs Cilium.
+9. What are RBAC Roles, ClusterRoles, and RoleBindings?
+10. What is a PodDisruptionBudget and when do you need it?
+11. Rolling updates vs Blue-Green vs Canary — how do you implement canary natively?
+12. How does etcd store Kubernetes state — and how do you recover from quorum loss?
+13. What is the Operator pattern and how do CRDs and reconciliation loops work?
+14. How do you harden a Kubernetes cluster end to end?
+15. How do you implement observability — logs, metrics, and traces?
+16. What are the challenges of multi-cluster Kubernetes and how do you handle them?
+
+
 # Errors:
 **POD:**
 1. **Pod in CrashLoopBackOff** - A pod is continuously restarting. What will you do.?
