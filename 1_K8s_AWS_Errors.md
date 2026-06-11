@@ -39,6 +39,19 @@ DevOps Scenarios You Must Own
 9. Your Grafana dashboard shows everything is green. But users are flooding support with complaints. What is missing in your observability setup?
 10. You need to deploy to production with zero downtime. Your team has never done blue-green before. How do you design it?
 
+1️⃣ Pod is running. App returns 503. What is your first command?
+2️⃣ terraform plan shows destroy and recreate. Production is live. What do you do?
+3️⃣ Pipeline passed. Prod has old code. Name 3 possible reasons.
+4️⃣ EC2 unreachable. You cannot SSH. Walk me through every step.
+5️⃣ Docker image is 2GB. You have 10 minutes to reduce it. Go.
+6️⃣ AWS bill doubled. No new resources. Find the cause in under 5 minutes.
+7️⃣ Node is NotReady. 3 pods stuck in Pending. What do you check first?
+8️⃣ Developer committed secret keys to GitHub. What do you do right now?
+9️⃣ HPA is set. Traffic spiked. Pods not scaling. Why?
+🔟 State file locked. Team cannot deploy. How do you fix it safely?
+
+
+
 **************************** AWS *****************************
 
 
