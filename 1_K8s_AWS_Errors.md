@@ -1,5 +1,6 @@
 ******************* Most Asked Kubernetes Q's ******************
 
+# Errors:
 **POD:**
 1. **Pod in CrashLoopBackOff** - A pod is continuously restarting. What will you do.?
 2. **Deployment Stuck in Pending State** - Pods are not getting scheduled.?
@@ -23,7 +24,20 @@
 22. **Image Pull Error (ImagePullBackOff)** - Pod cannot pull image.?
 23. **Debugging Intermittent Production Issue** - App randomly fails under load.?
 
+# Scenario-Based
 
+DevOps Scenarios You Must Own
+
+1. Your pod is running but returning 503. Is it the pod or the service? How do you tell in under 2 minutes?
+2. Terraform apply failed halfway. State file is now out of sync. What is your exact recovery plan?
+3. Pipeline passed. Production still has old code. Name every possible reason and how you confirm each one.
+4. EC2 is unreachable. You cannot SSH. Walk me through every single step you take.
+5. Docker image is 2.1 GB. Deployment is too slow. How do you bring it under 300 MB without breaking the app?
+6. AWS bill doubled this month. No new resources were added. How do you find the exact cause in under 10 minutes?
+7. HPA is configured. Traffic spiked. Pods are not scaling. What are the 4 possible reasons?
+8. A developer committed secret keys to GitHub at 2 PM. What do you do in the next 5 minutes?
+9. Your Grafana dashboard shows everything is green. But users are flooding support with complaints. What is missing in your observability setup?
+10. You need to deploy to production with zero downtime. Your team has never done blue-green before. How do you design it?
 
 **************************** AWS *****************************
 
